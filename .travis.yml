@@ -1,7 +1,13 @@
 language: go
 
+sudo: required
+
+services:
+  - docker
+
 go:
   - 1.7.x
 
 script:
   - GOARCH=arm go build ./hello.go
+  - ls -al
