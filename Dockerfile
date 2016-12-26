@@ -1,6 +1,6 @@
 FROM scratch
 
-ADD hello
+ADD hello /
 
 RUN chmod +x hello
 
