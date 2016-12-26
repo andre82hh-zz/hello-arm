@@ -1,0 +1,7 @@
+language: go
+
+go:
+  - 1.7.x
+
+script:
+  - GOARCH=arm go build ./hello.go
